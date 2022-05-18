@@ -37,6 +37,7 @@ public class Agente1 extends Agent{
         i++;
         c.crearHijos("AgenteHijo"+i, new Object[]{c,i});//habra de hacer un bucle para que el alias vaya cambiando,>>(ya esta hecho) con el i++ ya se hizo
         System.out.println("Muere"); //y asi cada que se muera el agente, se creara un hijo diferente
+        System.out.println("essss");
     }
     
     
